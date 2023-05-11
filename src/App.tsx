@@ -1,11 +1,9 @@
 import { ReactComponent as ReactIcon } from "@/assets/react.svg";
-import Test from "@/components/Test";
 
 function App() {
   return (
-    <div className="container p-10">
-      <Test />
-      <ReactIcon width={40} height={40} />
+    <div className="container p-10 flex flex-col gap-10">
+      <ReactIcon width={80} height={80} />
       <div className="text-blue-800 font-bold text-xl">
         React Typescript Template
       </div>
